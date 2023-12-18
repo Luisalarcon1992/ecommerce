@@ -4,4 +4,7 @@
     <AppHeader />
     <SubMenu />
   </header>
+  <NuxtLayout>
+    <NuxtPage />
+  </NuxtLayout>
 </template>

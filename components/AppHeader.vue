@@ -9,11 +9,11 @@
     <nav class=" bg-secondary ">
         <div class="h-[100px] flex justify-between mt-4 w-[1500px] m-auto">
             <form class="flex flex-row justify-center items-center gap-5">
-                <h1 class="pl-4 font-poppins text-colorText">MelliGlobos</h1>
+                <h1 class="pl-4 font-poppins-700 text-colorText">MelliGlobos</h1>
                 <div class="relative flex">
                     <input type="text" placeholder="Buscar..." class="rounded-[20px] w-[438px] h-14 pl-6 text-[16px]">
                     <button
-                        class="absolute top-0 right-0 rounded-[20px] bg-primary h-14 w-[132px] flex items-center justify-center">
+                        class="absolute top-0 right-0 rounded-[20px] bg-primary h-14 w-[132px] flex items-center justify-center text-[#fff]">
                         Buscar
                     </button>
                 </div>
@@ -55,10 +55,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
 @font-face {
+    src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
-    src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
 }
 
 h1 {

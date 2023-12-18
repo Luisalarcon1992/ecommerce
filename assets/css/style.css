@@ -7,6 +7,15 @@
 
 
 
+
 .font-poppins-500 {
     font-weight: 500;
+}
+
+.font-poppins-600 {
+    font-weight: 600;
+}
+
+.font-poppins-700 {
+    font-weight: 700;
 }
