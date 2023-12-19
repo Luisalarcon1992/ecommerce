@@ -9,7 +9,9 @@
     <nav class=" bg-secondary ">
         <div class="h-[100px] flex justify-between mt-4 w-[1500px] m-auto">
             <form class="flex flex-row justify-center items-center gap-5">
-                <h1 class="pl-4 font-poppins-700 text-colorText">MelliGlobos</h1>
+                <NuxtLink to="/" class="titulo pl-4 font-poppins-700 text-colorText text-[43px]">
+                    MelliGlobos
+                </NuxtLink>
                 <div class="relative flex">
                     <input type="text" placeholder="Buscar..." class="rounded-[20px] w-[438px] h-14 pl-6 text-[16px]">
                     <button
@@ -22,13 +24,13 @@
             </form>
             <ul class="flex justify-center items-center gap-5 pr-10 ">
                 <li>
-                    <NuxtLink to="#">
+                    <NuxtLink to="/acount/acount">
                         <Icon name="ri:user-line" size="24px" class="text-colorText" />
                         Crea tu cuenta
                     </NuxtLink>
                 </li>
                 <li>
-                    <NuxtLink to="#">
+                    <NuxtLink to="/acount/acount">
                         <Icon name="ri:heart-3-line" size="24px" class="text-colorText" /> Ingresá
                     </NuxtLink>
                 </li>
@@ -62,7 +64,7 @@
 
 }
 
-h1 {
+.titulo {
 
     /* Sombra tenue por debajo del texto */
     text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
