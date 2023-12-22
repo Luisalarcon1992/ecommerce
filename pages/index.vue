@@ -14,7 +14,8 @@
 
 <script setup>
 import AppSales from '~/components/partials/AppSales.vue';
-import AppCarousel from '~/components/partials/AppCarousel.vue'
+import AppCarousel from '~/components/partials/AppCarousel.vue';
+import AppProducts from '~/components/home/AppProducts.vue';
 
 
 </script>
