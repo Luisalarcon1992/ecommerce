@@ -1,8 +1,7 @@
 
 <script setup>
-
-// <Icon name="ri:arrow-down-s-line" size="24px" class="text-[#fff]" />
-
+// <Icon name="ri:arrow-down-s-line" size="24px" class="text-[#292D32]" />
+// pegar este ícono en categorías
 </script>
 
 <template>
@@ -15,7 +14,7 @@
             <div class="flex flex-row gap-4 justify-center items-center ">
                 <NuxtLink to="/cathegory" class="flex flex-row gap-1 justify-center items-center  w-24 h-6">
                     Categorías
-                    <Icon name="ri:arrow-down-s-line" size="24px" class="text-[#292D32]" />
+
                 </NuxtLink>
                 <NuxtLink to="/about" class="flex flex-row gap-1 justify-center items-center  w-24 h-6">
                     Nosotros

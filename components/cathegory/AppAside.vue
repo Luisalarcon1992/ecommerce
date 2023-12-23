@@ -5,7 +5,26 @@
 </script>
 
 <template>
-    <aside class="min-w-[275px] m-auto">
+    <aside class="w-[300px] flex flex-col">
+        <header class="grid grid-cols-3 gap-x-4 gap-y-2 justify-start mb-4">
+            <button
+                class="rounded-[25px] font-poppins-600 bg-withOutStock border border-primary  text-colorText box-content w-full px-1">Ver
+                más <span class="ml-2">X</span>
+            </button>
+            <button
+                class="rounded-[25px] font-poppins-600 bg-withOutStock border border-primary  text-colorText box-content w-full p-1">Ver
+                más</button>
+            <button
+                class="rounded-[25px] font-poppins-600 bg-withOutStock border border-primary  text-colorText box-content w-full p-1">Ver
+                más</button>
+            <button
+                class="rounded-[25px] font-poppins-600 bg-withOutStock border border-primary  text-colorText box-content w-full p-1">Ver
+                más</button>
+            <button
+                class="rounded-[25px] font-poppins-600 bg-withOutStock border border-primary  text-colorText box-content w-full p-1">Ver
+                más</button>
+            <button class="text-[#595959] font-poppins font-poppins-400">Reset</button>
+        </header>
         <div class="flex flex-row justify-between mb-3">
             <h3 class="text-colorText font-poppins font-poppins-500">Categorías</h3>
             <button class="text-[#595959] font-poppins font-poppins-400">Reset</button>
@@ -46,6 +65,92 @@
                     <span class="absolute right-3">1</span>
                 </label>
             </div>
+
+        </article>
+        <hr class="my-7 border-[#BDBDBD]">
+        <article class="flex flex-col justify-between">
+            <div class="flex flex-col justify-between mb-1">
+                <label class="flex items-center relative">
+                    <input type="checkbox" class="mycheck" id="mycheck">
+                    <span class="flex-grow ml-1">Todas las categorías</span>
+                    <span class="absolute right-3">1</span>
+                </label>
+            </div>
+            <div class="flex flex-col justify-between mb-1">
+                <label class="flex items-center relative">
+                    <input type="checkbox" class="mycheck" id="mycheck">
+                    <span class="flex-grow ml-1">Todas las categorías</span>
+                    <span class="absolute right-3">1</span>
+                </label>
+            </div>
+            <div class="flex flex-col justify-between mb-1">
+                <label class="flex items-center relative">
+                    <input type="checkbox" class="mycheck" id="mycheck">
+                    <span class="flex-grow ml-1">Todas las categorías</span>
+                    <span class="absolute right-3">1</span>
+                </label>
+            </div>
+            <div class="flex flex-col justify-between mb-1">
+                <label class="flex items-center relative">
+                    <input type="checkbox" class="mycheck" id="mycheck">
+                    <span class="flex-grow ml-1">Todas las categorías</span>
+                    <span class="absolute right-3">1</span>
+                </label>
+            </div>
+            <div class="flex flex-col justify-between mb-1">
+                <label class="flex items-center relative">
+                    <input type="checkbox" class="mycheck" id="mycheck">
+                    <span class="flex-grow ml-1">Todas las categorías</span>
+                    <span class="absolute right-3">1</span>
+                </label>
+            </div>
+
+        </article>
+        <hr class="my-7 border-[#BDBDBD]">
+        <article class="flex flex-col justify-between">
+            <div class="flex flex-col justify-between mb-1">
+                <label class="flex items-center relative">
+                    <input type="checkbox" class="mycheck" id="mycheck">
+                    <span class="flex-grow ml-1">Todas las categorías</span>
+                    <span class="absolute right-3">1</span>
+                </label>
+            </div>
+            <div class="flex flex-col justify-between mb-1">
+                <label class="flex items-center relative">
+                    <input type="checkbox" class="mycheck" id="mycheck">
+                    <span class="flex-grow ml-1">Todas las categorías</span>
+                    <span class="absolute right-3">1</span>
+                </label>
+            </div>
+            <div class="flex flex-col justify-between mb-1">
+                <label class="flex items-center relative">
+                    <input type="checkbox" class="mycheck" id="mycheck">
+                    <span class="flex-grow ml-1">Todas las categorías</span>
+                    <span class="absolute right-3">1</span>
+                </label>
+            </div>
+            <div class="flex flex-col justify-between mb-1">
+                <label class="flex items-center relative">
+                    <input type="checkbox" class="mycheck" id="mycheck">
+                    <span class="flex-grow ml-1">Todas las categorías</span>
+                    <span class="absolute right-3">1</span>
+                </label>
+            </div>
+            <div class="flex flex-col justify-between mb-1">
+                <label class="flex items-center relative">
+                    <input type="checkbox" class="mycheck" id="mycheck">
+                    <span class="flex-grow ml-1">Todas las categorías</span>
+                    <span class="absolute right-3">1</span>
+                </label>
+            </div>
+            <div class="flex flex-col justify-between mb-1">
+                <label class="flex items-center relative">
+                    <input type="checkbox" class="mycheck" id="mycheck">
+                    <span class="flex-grow ml-1">Todas las categorías</span>
+                    <span class="absolute right-3">1</span>
+                </label>
+            </div>
+
         </article>
         <hr class="my-7 border-[#BDBDBD]">
         <article class="flex flex-col justify-between">
@@ -85,83 +190,6 @@
                 </label>
             </div>
         </article>
-        <hr class="my-7 border-[#BDBDBD]">
-        <article class="flex flex-col justify-between">
-            <div class="flex flex-col justify-between mb-1">
-                <label class="flex items-center relative">
-                    <input type="checkbox" class="mycheck" id="mycheck">
-                    <span class="flex-grow ml-1">Todas las categorías</span>
-                    <span class="absolute right-3">1</span>
-                </label>
-            </div>
-            <div class="flex flex-col justify-between mb-1">
-                <label class="flex items-center relative">
-                    <input type="checkbox" class="mycheck" id="mycheck">
-                    <span class="flex-grow ml-1">Todas las categorías</span>
-                    <span class="absolute right-3">1</span>
-                </label>
-            </div>
-            <div class="flex flex-col justify-between mb-1">
-                <label class="flex items-center relative">
-                    <input type="checkbox" class="mycheck" id="mycheck">
-                    <span class="flex-grow ml-1">Todas las categorías</span>
-                    <span class="absolute right-3">1</span>
-                </label>
-            </div>
-            <div class="flex flex-col justify-between mb-1">
-                <label class="flex items-center relative">
-                    <input type="checkbox" class="mycheck" id="mycheck">
-                    <span class="flex-grow ml-1">Todas las categorías</span>
-                    <span class="absolute right-3">1</span>
-                </label>
-            </div>
-            <div class="flex flex-col justify-between mb-1">
-                <label class="flex items-center relative">
-                    <input type="checkbox" class="mycheck" id="mycheck">
-                    <span class="flex-grow ml-1">Todas las categorías</span>
-                    <span class="absolute right-3">1</span>
-                </label>
-            </div>
-        </article>
-        <hr class="my-7 border-[#BDBDBD]">
-        <article class="flex flex-col justify-between">
-            <div class="flex flex-col justify-between mb-1">
-                <label class="flex items-center relative">
-                    <input type="checkbox" class="mycheck" id="mycheck">
-                    <span class="flex-grow ml-1">Todas las categorías</span>
-                    <span class="absolute right-3">1</span>
-                </label>
-            </div>
-            <div class="flex flex-col justify-between mb-1">
-                <label class="flex items-center relative">
-                    <input type="checkbox" class="mycheck" id="mycheck">
-                    <span class="flex-grow ml-1">Todas las categorías</span>
-                    <span class="absolute right-3">1</span>
-                </label>
-            </div>
-            <div class="flex flex-col justify-between mb-1">
-                <label class="flex items-center relative">
-                    <input type="checkbox" class="mycheck" id="mycheck">
-                    <span class="flex-grow ml-1">Todas las categorías</span>
-                    <span class="absolute right-3">1</span>
-                </label>
-            </div>
-            <div class="flex flex-col justify-between mb-1">
-                <label class="flex items-center relative">
-                    <input type="checkbox" class="mycheck" id="mycheck">
-                    <span class="flex-grow ml-1">Todas las categorías</span>
-                    <span class="absolute right-3">1</span>
-                </label>
-            </div>
-            <div class="flex flex-col justify-between mb-1">
-                <label class="flex items-center relative">
-                    <input type="checkbox" class="mycheck" id="mycheck">
-                    <span class="flex-grow ml-1">Todas las categorías</span>
-                    <span class="absolute right-3">1</span>
-                </label>
-            </div>
-        </article>
-        <hr class="my-7 border-[#BDBDBD]">
     </aside>
 </template>
   

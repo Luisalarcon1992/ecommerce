@@ -1,13 +1,13 @@
 
 <script setup>
 import AppCathegory from '~/components/cathegory/AppCathegory.vue';
-import AppAside from '~/components/cathegory/AppAside.vue'
+import AppAside from '~/components/cathegory/AppAside.vue';
 
 
 </script>
 
 <template>
-    <main class="max-w-[1500px] mt-10 flex flex-row justify-between items-center">
+    <main class="max-w-[1500px] m-auto mt-10 flex flex-row">
         <AppAside />
         <AppCathegory />
     </main>

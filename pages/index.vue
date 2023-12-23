@@ -1,3 +1,10 @@
+<script setup>
+import AppSales from '~/components/partials/AppSales.vue';
+import AppCarousel from '~/components/partials/AppCarousel.vue';
+import AppProducts from '~/components/home/AppProducts.vue';
+
+
+</script>
 
 <template>
     <section class="w-[1500px]  m-auto mt-10">
@@ -12,11 +19,4 @@
     </footer>
 </template>
 
-<script setup>
-import AppSales from '~/components/partials/AppSales.vue';
-import AppCarousel from '~/components/partials/AppCarousel.vue';
-import AppProducts from '~/components/home/AppProducts.vue';
-
-
-</script>
   
