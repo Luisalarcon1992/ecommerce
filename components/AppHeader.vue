@@ -35,7 +35,7 @@
                     </NuxtLink>
                 </li>
                 <li>
-                    <NuxtLink to="/detail" class="flex">
+                    <NuxtLink to="/cart" class="flex">
                         <Icon name="ri:shopping-cart-line" size="24px" class="text-colorText" />
                         <svg class="text-colorText ml-2" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                             viewBox="0 0 24 24">
