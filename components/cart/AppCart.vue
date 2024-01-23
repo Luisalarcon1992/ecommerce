@@ -1,6 +1,6 @@
 <script setup>
 
-// write here your code
+console.log("prueba")
 
 </script>
 
